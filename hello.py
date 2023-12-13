@@ -1,12 +1,18 @@
 
-def add(num1,num2):
- print(num1+num2)
+def add(a,b,c,d):
+ print(a+b+c+d)
 
+try:
+    a=int(input("enter a number :"))
+    b=int(input("enter num2 :"))
+    c=int(input("enter num2 :"))
+    d=int(input("enter num2 :"))
+    
+    
 
-num1=int(input("enter a number :"))
-num2=int(input("enter num2 :"))
-
-add(num1,num2)
+    add(a,b,c,d)
+except: 
+    print("error detected")
 
             
 
